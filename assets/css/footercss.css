@@ -1,0 +1,79 @@
+/* .spaced-header is in sidecss */
+
+footer {
+    font-size: 12pt; 
+    margin-top: 100px;
+}
+
+.column {
+    flex: 100%;
+}
+
+
+#social .spaced-header {
+    margin-bottom: 20px;
+}
+
+#social i {
+    transition: transform 0.1s ease;
+    scale: 160%; 
+    margin-right: 20px; 
+}
+
+#social i:hover {
+    transform: scale(1.4);
+}
+  
+#social img {
+    transition: transform 0.1s ease;
+    margin-right: 20px;
+    height: 28px;
+    width: auto;
+    position: relative;
+    top: 8px;
+}
+
+#social img:hover {
+    transform: scale(1.6);
+}
+
+#github {
+    color: black;
+}
+
+#mail {
+    color: #023e47;
+}
+
+#mathstodon {
+    color: #3288d4;
+}
+
+#google-scholar {
+    color: #4285f4;
+}
+
+.social-buttons {
+    text-align: center;
+}
+
+#footlogo {
+    flex: 0 0 8%; 
+    max-width: 8%; 
+    text-align: right;
+}
+
+#footlogo img {
+    width: 100%;
+    height: auto;
+}
+
+#copyright {
+    text-align: left; 
+    font-size: 11pt; 
+    margin-top: 30px;
+}
+
+.last-update {
+    float: right;
+}

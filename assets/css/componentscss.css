@@ -1,0 +1,56 @@
+.tabtext::part(base) {
+    /* for the tab headings - tabs are used e.g. in personal info */
+    font-size: 12pt;
+}
+
+.tree-with-lines {
+    --indent-guide-width: 1px;
+    --indent-guide-color: #023e47;
+}
+
+.text::part(label) {
+    /* for the trees - e.g. used in links etc */
+    font-size: 14pt;
+}
+
+.tree-head::part(label) {
+    /* for the trees - e.g. used in links etc */
+    font-size: 20px;
+}
+
+wa-divider {
+    --color: rgb(227, 227, 230);
+}
+
+wa-badge {
+    margin-bottom: 10pt;
+}
+
+wa-tab::part(base) {
+    color: #023e47;
+}
+
+wa-tab-group {
+    --track-width: 2px;
+    --indicator-color: #003f9c;
+}
+
+wa-button {
+    width: 100%;
+    padding: 3pt;
+}
+
+#arXiv wa-tooltip::part(body) {
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+
+
+#teaching wa-tree-item::part(expand-button){
+    /* Disable the expand/collapse animation */
+    rotate: none;
+}
+
+#teaching wa-tree-item {
+    margin-top: -6pt;
+}
