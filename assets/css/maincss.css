@@ -1,3 +1,10 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya:400,400italic);
+@import url(https://fonts.googleapis.com/css?family=Tilt+Neon);
+
+body, p, h1, h2, h3, h4, h5, h6, a, ul, ol, li {
+    font-family: 'Tilt Neon';
+}
+
 html {
     background: #ffebe3;
 }
@@ -8,7 +15,7 @@ body {
     margin: auto;
     padding: 20px;
     color: #023e47;
-    font-size: 13pt;
+    font-size: 14pt;
     line-height: 1.4;
     cursor: context-menu;
     text-align: justify;
