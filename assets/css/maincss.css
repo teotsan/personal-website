@@ -1,5 +1,23 @@
-@import url(https://fonts.googleapis.com/css?family=Alegreya:400,400italic);
-@import url(https://fonts.googleapis.com/css?family=Tilt+Neon);
+@font-face {
+  font-family: 'Tilt Neon';
+  src: url('/assets/fonts/tilt-neon.ttf') format('truetype');
+  font-weight: 100 400;   /* Range for variable font */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Alegreya';
+  src: url('/assets/fonts/alegreya.ttf') format('truetype');
+  font-weight: 100 900;   /* Range for variable font */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Alegreya Italic';
+  src: url('/assets/fonts/alegreya-italic.ttf') format('truetype');
+  font-weight: 100 900;   /* Range for variable font */
+  font-style: italic;
+}
 
 body, p, h1, h2, h3, h4, h5, h6, a, ul, ol, li {
     font-family: 'Tilt Neon';
