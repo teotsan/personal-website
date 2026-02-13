@@ -1,21 +1,7 @@
 .tabtext::part(base) {
     /* for the tab headings - tabs are used e.g. in personal info */
-    font-size: 12pt;
-}
-
-.tree-with-lines {
-    --indent-guide-width: 1px;
-    --indent-guide-color: #023e47;
-}
-
-.text::part(label) {
-    /* for the trees - e.g. used in links etc */
-    font-size: 14pt;
-}
-
-.tree-head::part(label) {
-    /* for the trees - e.g. used in links etc */
-    font-size: 20px;
+    font-size: 11pt;
+    font-weight: 300;
 }
 
 wa-divider {
@@ -45,12 +31,7 @@ wa-button {
     margin-bottom: 0px;
 }
 
-
-#teaching wa-tree-item::part(expand-button){
-    /* Disable the expand/collapse animation */
-    rotate: none;
-}
-
-#teaching wa-tree-item {
-    margin-top: -6pt;
+wa-tree-item::part(label) {
+    font-size: 14pt;
+    text-align: left;
 }

@@ -107,3 +107,7 @@ a:hover {
     color: #b3b832e8;
     text-decoration: none;
 }
+
+#teaching ul li {
+    margin-bottom: 0px;
+}
